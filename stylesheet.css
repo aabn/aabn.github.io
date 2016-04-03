@@ -1,8 +1,84 @@
+body {
+background-color: #ffff99;
+}
+
+.site {
+width: 60%;
+background-color: white;
+margin-left: 20%;
+}
+
+.subhead {
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+div .menu {
+border-top: #ff704d 5px;
+border-style: solid;
+border-bottom: none;
+border-left: none;
+border-right: none;
+}
+
+.menu ul{
+list-style-type: none;
+margin: 0;
+padding-left: 5%;
+padding-top: .5em;
+}
+
+.menu li {
+font-family: 'Playfair Display', serif;
+color: #ff704d;
+display: inline;
+padding: 0 1em 0 0;
+}
+
+.menu a {
+text-decoration: none;
+}
+
+.homecontent div {
+padding: 5% 5% 10% 5%;
+}
+
+div .about {
+padding-right: 5%;
+width: 60%;
+float: left;
+}
+
+.contact div {
+float: right;
+width: 15%;
+}
+
+.contact ul {
+list-style-type: none;
+}
+
+.footer div {
+clear: both;
+}
 
 h1 {
-font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+text-align: center;
 }
 
-.help p{
-font-weight: 400;
+h2 {
+font-family: 'Playfair Display', serif;
 }
+
+p {
+font-family: 'Lato', sans-serif;
+}
+
+a {
+font-family: 'Lato', sans-serif;
+text-decoration: none;
+color: #ff704d;
+}
+
+
