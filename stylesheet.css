@@ -1,5 +1,6 @@
 body {
-background-color: #ffff99;
+/*background-color: #ffff99;*/
+background-color: #CED4D6;
 }
 
 .site {
@@ -16,14 +17,16 @@ border-left: none;
 border-right: none;
 width: 90%;
 margin-left: 5%;
-padding-top: .75em;
-padding-bottom: .75em;
+margin-top: 5%;
+padding-top: 5%;
+padding-bottom: 1em;
 }
 
 .menu ul{
 list-style-type: none;
 margin: 0;
-padding-top: .5em;
+padding: 0;
+text-align: center;
 }
 
 .menu li {
@@ -31,6 +34,10 @@ font-family: 'Playfair Display', serif;
 color: #ff704d;
 display: inline;
 padding: 0 2em 0 0;
+}
+
+li:last-child {
+padding: 0;
 }
 
 .menu a {
@@ -43,9 +50,7 @@ font-family: 'Lato', sans-serif;
 }
 
 div.homecontent {
-padding-left: 5%;
-padding-right: 5%;
-padding-top: 5%;
+padding: 5%;
 }
 
 div.project {
@@ -58,7 +63,7 @@ padding-bottom: .25em;
 font-size: 1em;
 color: #848A8C;
 margin: 0;
-line-height: 10%;
+line-height: 0;
 }
 
 /*.descrip {
@@ -67,24 +72,27 @@ clear: both;
 
 .footer {
 margin-top: 5%;
-padding-bottom: 5%;
 border-top: 1px solid #ff704d;
 }
 
 h1 {
 font-family: 'Playfair Display', serif;
 text-align: center;
+margin: 0;
 }
 
 h2 {
 font-family: 'Playfair Display', serif;
+margin-top: 5%;
+padding-bottom: .5em;
+border-bottom: 1px solid #ff704d;
 }
 
 h3 {
 font-family: 'Lato', sans-serif;
 color: #ff704d;
 font-size: 1em;
-padding-top: 1.5em;
+padding-top: 1em;
 /*float: left;*/
 }
 
