@@ -1,5 +1,4 @@
 body {
-/*background-color: #ffff99;*/
 background-color: #CED4D6;
 }
 
@@ -59,17 +58,11 @@ padding-bottom: .25em;
 }
 
 .tag {
-/*float: left;*/
-/*padding-left: 2em;*/
 font-size: 1em;
 color: #848A8C;
 margin: 0;
 line-height: 0;
 }
-
-/*.descrip {
-clear: both;
-}*/
 
 .footer {
 margin-top: 5%;
@@ -94,7 +87,6 @@ font-family: 'Lato', sans-serif;
 color: #ff704d;
 font-size: 1em;
 padding-top: 1em;
-/*float: left;*/
 }
 
 p {
