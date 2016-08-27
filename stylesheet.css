@@ -8,23 +8,21 @@ background-color: white;
 margin-left: 20%;
 }
 
-.subhead {
-text-align: center;
-font-family: 'Lato', sans-serif;
-}
-
-div .menu {
-border-top: #ff704d 5px;
+div.menu {
+border-bottom: #ff704d 5px;
 border-style: solid;
-border-bottom: none;
+border-top: none;
 border-left: none;
 border-right: none;
+width: 90%;
+margin-left: 5%;
+padding-top: .75em;
+padding-bottom: .75em;
 }
 
 .menu ul{
 list-style-type: none;
 margin: 0;
-padding-left: 5%;
 padding-top: .5em;
 }
 
@@ -32,34 +30,45 @@ padding-top: .5em;
 font-family: 'Playfair Display', serif;
 color: #ff704d;
 display: inline;
-padding: 0 1em 0 0;
+padding: 0 2em 0 0;
 }
 
 .menu a {
 text-decoration: none;
 }
 
-.homecontent div {
-padding: 5% 5% 10% 5%;
+.subhead {
+text-align: center;
+font-family: 'Lato', sans-serif;
 }
 
-div .about {
+div.homecontent {
+padding-left: 5%;
 padding-right: 5%;
-width: 60%;
-float: left;
+padding-top: 5%;
 }
 
-.contact div {
-float: right;
-width: 15%;
+div.project {
+padding-bottom: .25em;
 }
 
-.contact ul {
-list-style-type: none;
+.tag {
+/*float: left;*/
+/*padding-left: 2em;*/
+font-size: 1em;
+color: #848A8C;
+margin: 0;
+line-height: 10%;
 }
 
-.footer div {
+/*.descrip {
 clear: both;
+}*/
+
+.footer {
+margin-top: 5%;
+padding-bottom: 5%;
+border-top: 1px solid #ff704d;
 }
 
 h1 {
@@ -69,6 +78,14 @@ text-align: center;
 
 h2 {
 font-family: 'Playfair Display', serif;
+}
+
+h3 {
+font-family: 'Lato', sans-serif;
+color: #ff704d;
+font-size: 1em;
+padding-top: 1.5em;
+/*float: left;*/
 }
 
 p {
@@ -81,4 +98,7 @@ text-decoration: none;
 color: #ff704d;
 }
 
+a:hover {
+text-decoration: underline;
+}
 
