@@ -3,10 +3,10 @@ background-color: #CED4D6;
 }
 
 .site {
-width: 60%;
+width: 80%;
 background-color: white;
-margin-left: 20%;
-margin-right: 20%;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 div.menu {
@@ -73,6 +73,7 @@ h1 {
 font-family: 'Playfair Display', serif;
 text-align: center;
 margin: 0;
+padding: 0;
 }
 
 h2 {
@@ -90,6 +91,10 @@ padding-top: 1em;
 }
 
 p {
+font-family: 'Lato', sans-serif;
+}
+
+li {
 font-family: 'Lato', sans-serif;
 }
 
@@ -124,10 +129,6 @@ margin-right: 5%;
 .menu li {
 display: inline;
 padding: 0 1em 0 0;
-}
-
-h2 {
-text-align: center;
 }
 
 .tag {
